@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		03235F77209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Robin_Vinck_multec_werkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03235F7A209706F8000EEB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03235F7C209706F8000EEB7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03235F7C209706F8000EEB7E /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03235F7F209706F8000EEB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03235F82209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Robin_Vinck_multec_werkstuk2.xcdatamodel; sourceTree = "<group>"; };
 		03235F84209706FA000EEB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
