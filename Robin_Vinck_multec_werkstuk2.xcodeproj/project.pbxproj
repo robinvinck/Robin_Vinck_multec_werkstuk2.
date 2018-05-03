@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		03235F7B209706F8000EEB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235F7A209706F8000EEB7E /* AppDelegate.swift */; };
-		03235F7D209706F8000EEB7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235F7C209706F8000EEB7E /* ViewController.swift */; };
+		03235F7D209706F8000EEB7E /* Startscherm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235F7C209706F8000EEB7E /* Startscherm.swift */; };
 		03235F80209706F8000EEB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03235F7E209706F8000EEB7E /* Main.storyboard */; };
 		03235F83209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03235F81209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.xcdatamodeld */; };
 		03235F85209706FA000EEB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03235F84209706FA000EEB7E /* Assets.xcassets */; };
 		03235F88209706FA000EEB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03235F86209706FA000EEB7E /* LaunchScreen.storyboard */; };
 		03235F93209706FA000EEB7E /* Robin_Vinck_multec_werkstuk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235F92209706FA000EEB7E /* Robin_Vinck_multec_werkstuk2Tests.swift */; };
 		03235F9E209706FA000EEB7E /* Robin_Vinck_multec_werkstuk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235F9D209706FA000EEB7E /* Robin_Vinck_multec_werkstuk2UITests.swift */; };
+		03235FAD209B87D8000EEB7E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03235FAC209B87D8000EEB7E /* MapKit.framework */; };
+		03235FAF209B89B7000EEB7E /* KaartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235FAE209B89B7000EEB7E /* KaartViewController.swift */; };
+		03235FB1209BA051000EEB7E /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235FB0209BA051000EEB7E /* MyAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		03235F77209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Robin_Vinck_multec_werkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03235F7A209706F8000EEB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03235F7C209706F8000EEB7E /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03235F7C209706F8000EEB7E /* Startscherm.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = Startscherm.swift; sourceTree = "<group>"; };
 		03235F7F209706F8000EEB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03235F82209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Robin_Vinck_multec_werkstuk2.xcdatamodel; sourceTree = "<group>"; };
 		03235F84209706FA000EEB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		03235F99209706FA000EEB7E /* Robin_Vinck_multec_werkstuk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Robin_Vinck_multec_werkstuk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03235F9D209706FA000EEB7E /* Robin_Vinck_multec_werkstuk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robin_Vinck_multec_werkstuk2UITests.swift; sourceTree = "<group>"; };
 		03235F9F209706FA000EEB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03235FAC209B87D8000EEB7E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		03235FAE209B89B7000EEB7E /* KaartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaartViewController.swift; sourceTree = "<group>"; };
+		03235FB0209BA051000EEB7E /* MyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03235FAD209B87D8000EEB7E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,7 @@
 				03235F91209706FA000EEB7E /* Robin_Vinck_multec_werkstuk2Tests */,
 				03235F9C209706FA000EEB7E /* Robin_Vinck_multec_werkstuk2UITests */,
 				03235F78209706F8000EEB7E /* Products */,
+				03235FAB209B87D8000EEB7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +108,14 @@
 			isa = PBXGroup;
 			children = (
 				03235F7A209706F8000EEB7E /* AppDelegate.swift */,
-				03235F7C209706F8000EEB7E /* ViewController.swift */,
+				03235F7C209706F8000EEB7E /* Startscherm.swift */,
 				03235F7E209706F8000EEB7E /* Main.storyboard */,
 				03235F84209706FA000EEB7E /* Assets.xcassets */,
 				03235F86209706FA000EEB7E /* LaunchScreen.storyboard */,
 				03235F89209706FA000EEB7E /* Info.plist */,
 				03235F81209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.xcdatamodeld */,
+				03235FAE209B89B7000EEB7E /* KaartViewController.swift */,
+				03235FB0209BA051000EEB7E /* MyAnnotation.swift */,
 			);
 			path = Robin_Vinck_multec_werkstuk2;
 			sourceTree = "<group>";
@@ -126,6 +136,14 @@
 				03235F9F209706FA000EEB7E /* Info.plist */,
 			);
 			path = Robin_Vinck_multec_werkstuk2UITests;
+			sourceTree = "<group>";
+		};
+		03235FAB209B87D8000EEB7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03235FAC209B87D8000EEB7E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +214,11 @@
 				TargetAttributes = {
 					03235F76209706F8000EEB7E = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					03235F8D209706FA000EEB7E = {
 						CreatedOnToolsVersion = 9.3;
@@ -260,7 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03235F83209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.xcdatamodeld in Sources */,
-				03235F7D209706F8000EEB7E /* ViewController.swift in Sources */,
+				03235F7D209706F8000EEB7E /* Startscherm.swift in Sources */,
+				03235FB1209BA051000EEB7E /* MyAnnotation.swift in Sources */,
+				03235FAF209B89B7000EEB7E /* KaartViewController.swift in Sources */,
 				03235F7B209706F8000EEB7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
