@@ -18,6 +18,7 @@
 		03235FAD209B87D8000EEB7E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03235FAC209B87D8000EEB7E /* MapKit.framework */; };
 		03235FAF209B89B7000EEB7E /* KaartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235FAE209B89B7000EEB7E /* KaartViewController.swift */; };
 		03235FB1209BA051000EEB7E /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235FB0209BA051000EEB7E /* MyAnnotation.swift */; };
+		03235FB3209C9C39000EEB7E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235FB2209C9C39000EEB7E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		03235FAC209B87D8000EEB7E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		03235FAE209B89B7000EEB7E /* KaartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaartViewController.swift; sourceTree = "<group>"; };
 		03235FB0209BA051000EEB7E /* MyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		03235FB2209C9C39000EEB7E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				03235F81209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.xcdatamodeld */,
 				03235FAE209B89B7000EEB7E /* KaartViewController.swift */,
 				03235FB0209BA051000EEB7E /* MyAnnotation.swift */,
+				03235FB2209C9C39000EEB7E /* DetailViewController.swift */,
 			);
 			path = Robin_Vinck_multec_werkstuk2;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				03235F83209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.xcdatamodeld in Sources */,
 				03235F7D209706F8000EEB7E /* Startscherm.swift in Sources */,
 				03235FB1209BA051000EEB7E /* MyAnnotation.swift in Sources */,
+				03235FB3209C9C39000EEB7E /* DetailViewController.swift in Sources */,
 				03235FAF209B89B7000EEB7E /* KaartViewController.swift in Sources */,
 				03235F7B209706F8000EEB7E /* AppDelegate.swift in Sources */,
 			);
