@@ -21,8 +21,6 @@
 		03235FB3209C9C39000EEB7E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235FB2209C9C39000EEB7E /* DetailViewController.swift */; };
 		03235FB5209CA210000EEB7E /* AlleItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235FB4209CA210000EEB7E /* AlleItemsTableViewController.swift */; };
 		03235FBA209D0991000EEB7E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03235FBC209D0991000EEB7E /* Localizable.strings */; };
-		03235FC5209D12B2000EEB7E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235FC4209D12B2000EEB7E /* TestViewController.swift */; };
-		032F558320A22CE600B8CA79 /* routeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032F558220A22CE600B8CA79 /* routeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +65,7 @@
 		03235FBB209D0991000EEB7E /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		03235FBD209D0995000EEB7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		03235FBF209D0B9A000EEB7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		03235FC4209D12B2000EEB7E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		032F558220A22CE600B8CA79 /* routeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routeViewController.swift; sourceTree = "<group>"; };
+		032F558520A3271700B8CA79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +130,6 @@
 				03235FB2209C9C39000EEB7E /* DetailViewController.swift */,
 				03235FB4209CA210000EEB7E /* AlleItemsTableViewController.swift */,
 				03235FBC209D0991000EEB7E /* Localizable.strings */,
-				03235FC4209D12B2000EEB7E /* TestViewController.swift */,
-				032F558220A22CE600B8CA79 /* routeViewController.swift */,
 			);
 			path = Robin_Vinck_multec_werkstuk2;
 			sourceTree = "<group>";
@@ -304,9 +299,7 @@
 			files = (
 				03235F83209706F8000EEB7E /* Robin_Vinck_multec_werkstuk2.xcdatamodeld in Sources */,
 				03235F7D209706F8000EEB7E /* Startscherm.swift in Sources */,
-				03235FC5209D12B2000EEB7E /* TestViewController.swift in Sources */,
 				03235FB5209CA210000EEB7E /* AlleItemsTableViewController.swift in Sources */,
-				032F558320A22CE600B8CA79 /* routeViewController.swift in Sources */,
 				03235FB1209BA051000EEB7E /* MyAnnotation.swift in Sources */,
 				03235FB3209C9C39000EEB7E /* DetailViewController.swift in Sources */,
 				03235FAF209B89B7000EEB7E /* KaartViewController.swift in Sources */,
@@ -361,6 +354,7 @@
 			children = (
 				03235F87209706FA000EEB7E /* Base */,
 				03235FB9209D0936000EEB7E /* nl */,
+				032F558520A3271700B8CA79 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
